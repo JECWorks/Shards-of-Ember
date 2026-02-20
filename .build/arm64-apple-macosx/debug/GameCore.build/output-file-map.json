@@ -1,0 +1,33 @@
+{
+  "": {
+    "swift-dependencies": "/Users/jasoncox/Documents/GitHub/Swift/Shards of Ember/.build/arm64-apple-macosx/debug/GameCore.build/master.swiftdeps"
+  },
+  "/Users/jasoncox/Documents/GitHub/Swift/Shards of Ember/Sources/GameCore/Core/GameState.swift": {
+    "dependencies": "/Users/jasoncox/Documents/GitHub/Swift/Shards of Ember/.build/arm64-apple-macosx/debug/GameCore.build/GameState.d",
+    "object": "/Users/jasoncox/Documents/GitHub/Swift/Shards of Ember/.build/arm64-apple-macosx/debug/GameCore.build/GameState.swift.o",
+    "swiftmodule": "/Users/jasoncox/Documents/GitHub/Swift/Shards of Ember/.build/arm64-apple-macosx/debug/GameCore.build/GameState~partial.swiftmodule",
+    "swift-dependencies": "/Users/jasoncox/Documents/GitHub/Swift/Shards of Ember/.build/arm64-apple-macosx/debug/GameCore.build/GameState.swiftdeps",
+    "diagnostics": "/Users/jasoncox/Documents/GitHub/Swift/Shards of Ember/.build/arm64-apple-macosx/debug/GameCore.build/GameState.dia"
+  },
+  "/Users/jasoncox/Documents/GitHub/Swift/Shards of Ember/Sources/GameCore/Core/MapData.swift": {
+    "dependencies": "/Users/jasoncox/Documents/GitHub/Swift/Shards of Ember/.build/arm64-apple-macosx/debug/GameCore.build/MapData.d",
+    "object": "/Users/jasoncox/Documents/GitHub/Swift/Shards of Ember/.build/arm64-apple-macosx/debug/GameCore.build/MapData.swift.o",
+    "swiftmodule": "/Users/jasoncox/Documents/GitHub/Swift/Shards of Ember/.build/arm64-apple-macosx/debug/GameCore.build/MapData~partial.swiftmodule",
+    "swift-dependencies": "/Users/jasoncox/Documents/GitHub/Swift/Shards of Ember/.build/arm64-apple-macosx/debug/GameCore.build/MapData.swiftdeps",
+    "diagnostics": "/Users/jasoncox/Documents/GitHub/Swift/Shards of Ember/.build/arm64-apple-macosx/debug/GameCore.build/MapData.dia"
+  },
+  "/Users/jasoncox/Documents/GitHub/Swift/Shards of Ember/Sources/GameCore/Core/MovementSystem.swift": {
+    "dependencies": "/Users/jasoncox/Documents/GitHub/Swift/Shards of Ember/.build/arm64-apple-macosx/debug/GameCore.build/MovementSystem.d",
+    "object": "/Users/jasoncox/Documents/GitHub/Swift/Shards of Ember/.build/arm64-apple-macosx/debug/GameCore.build/MovementSystem.swift.o",
+    "swiftmodule": "/Users/jasoncox/Documents/GitHub/Swift/Shards of Ember/.build/arm64-apple-macosx/debug/GameCore.build/MovementSystem~partial.swiftmodule",
+    "swift-dependencies": "/Users/jasoncox/Documents/GitHub/Swift/Shards of Ember/.build/arm64-apple-macosx/debug/GameCore.build/MovementSystem.swiftdeps",
+    "diagnostics": "/Users/jasoncox/Documents/GitHub/Swift/Shards of Ember/.build/arm64-apple-macosx/debug/GameCore.build/MovementSystem.dia"
+  },
+  "/Users/jasoncox/Documents/GitHub/Swift/Shards of Ember/Sources/GameCore/Core/Types.swift": {
+    "dependencies": "/Users/jasoncox/Documents/GitHub/Swift/Shards of Ember/.build/arm64-apple-macosx/debug/GameCore.build/Types.d",
+    "object": "/Users/jasoncox/Documents/GitHub/Swift/Shards of Ember/.build/arm64-apple-macosx/debug/GameCore.build/Types.swift.o",
+    "swiftmodule": "/Users/jasoncox/Documents/GitHub/Swift/Shards of Ember/.build/arm64-apple-macosx/debug/GameCore.build/Types~partial.swiftmodule",
+    "swift-dependencies": "/Users/jasoncox/Documents/GitHub/Swift/Shards of Ember/.build/arm64-apple-macosx/debug/GameCore.build/Types.swiftdeps",
+    "diagnostics": "/Users/jasoncox/Documents/GitHub/Swift/Shards of Ember/.build/arm64-apple-macosx/debug/GameCore.build/Types.dia"
+  }
+}

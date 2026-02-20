@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/jasoncox/Documents/GitHub/Swift/Shards of Ember/.build/arm64-apple-macosx/debug/ShardsApp.build/master.swiftdeps"
+  },
+  "/Users/jasoncox/Documents/GitHub/Swift/Shards of Ember/Sources/ShardsApp/App/ShardsApp.swift": {
+    "dependencies": "/Users/jasoncox/Documents/GitHub/Swift/Shards of Ember/.build/arm64-apple-macosx/debug/ShardsApp.build/ShardsApp.d",
+    "object": "/Users/jasoncox/Documents/GitHub/Swift/Shards of Ember/.build/arm64-apple-macosx/debug/ShardsApp.build/ShardsApp.swift.o",
+    "swiftmodule": "/Users/jasoncox/Documents/GitHub/Swift/Shards of Ember/.build/arm64-apple-macosx/debug/ShardsApp.build/ShardsApp~partial.swiftmodule",
+    "swift-dependencies": "/Users/jasoncox/Documents/GitHub/Swift/Shards of Ember/.build/arm64-apple-macosx/debug/ShardsApp.build/ShardsApp.swiftdeps",
+    "diagnostics": "/Users/jasoncox/Documents/GitHub/Swift/Shards of Ember/.build/arm64-apple-macosx/debug/ShardsApp.build/ShardsApp.dia"
+  }
+}

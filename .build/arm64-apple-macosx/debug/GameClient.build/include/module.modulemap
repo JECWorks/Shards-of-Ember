@@ -1,0 +1,3 @@
+module GameClient {
+    header "/Users/jasoncox/Documents/GitHub/Swift/Shards of Ember/.build/arm64-apple-macosx/debug/GameClient.build/include/GameClient-Swift.h"
+}

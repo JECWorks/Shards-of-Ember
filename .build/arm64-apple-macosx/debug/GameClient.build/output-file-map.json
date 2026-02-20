@@ -1,0 +1,47 @@
+{
+  "": {
+    "swift-dependencies": "/Users/jasoncox/Documents/GitHub/Swift/Shards of Ember/.build/arm64-apple-macosx/debug/GameClient.build/master.swiftdeps"
+  },
+  "/Users/jasoncox/Documents/GitHub/Swift/Shards of Ember/Sources/GameClient/Client/GameStore.swift": {
+    "dependencies": "/Users/jasoncox/Documents/GitHub/Swift/Shards of Ember/.build/arm64-apple-macosx/debug/GameClient.build/GameStore.d",
+    "object": "/Users/jasoncox/Documents/GitHub/Swift/Shards of Ember/.build/arm64-apple-macosx/debug/GameClient.build/GameStore.swift.o",
+    "swiftmodule": "/Users/jasoncox/Documents/GitHub/Swift/Shards of Ember/.build/arm64-apple-macosx/debug/GameClient.build/GameStore~partial.swiftmodule",
+    "swift-dependencies": "/Users/jasoncox/Documents/GitHub/Swift/Shards of Ember/.build/arm64-apple-macosx/debug/GameClient.build/GameStore.swiftdeps",
+    "diagnostics": "/Users/jasoncox/Documents/GitHub/Swift/Shards of Ember/.build/arm64-apple-macosx/debug/GameClient.build/GameStore.dia"
+  },
+  "/Users/jasoncox/Documents/GitHub/Swift/Shards of Ember/Sources/GameClient/Client/GameView.swift": {
+    "dependencies": "/Users/jasoncox/Documents/GitHub/Swift/Shards of Ember/.build/arm64-apple-macosx/debug/GameClient.build/GameView.d",
+    "object": "/Users/jasoncox/Documents/GitHub/Swift/Shards of Ember/.build/arm64-apple-macosx/debug/GameClient.build/GameView.swift.o",
+    "swiftmodule": "/Users/jasoncox/Documents/GitHub/Swift/Shards of Ember/.build/arm64-apple-macosx/debug/GameClient.build/GameView~partial.swiftmodule",
+    "swift-dependencies": "/Users/jasoncox/Documents/GitHub/Swift/Shards of Ember/.build/arm64-apple-macosx/debug/GameClient.build/GameView.swiftdeps",
+    "diagnostics": "/Users/jasoncox/Documents/GitHub/Swift/Shards of Ember/.build/arm64-apple-macosx/debug/GameClient.build/GameView.dia"
+  },
+  "/Users/jasoncox/Documents/GitHub/Swift/Shards of Ember/Sources/GameClient/Client/HUDView.swift": {
+    "dependencies": "/Users/jasoncox/Documents/GitHub/Swift/Shards of Ember/.build/arm64-apple-macosx/debug/GameClient.build/HUDView.d",
+    "object": "/Users/jasoncox/Documents/GitHub/Swift/Shards of Ember/.build/arm64-apple-macosx/debug/GameClient.build/HUDView.swift.o",
+    "swiftmodule": "/Users/jasoncox/Documents/GitHub/Swift/Shards of Ember/.build/arm64-apple-macosx/debug/GameClient.build/HUDView~partial.swiftmodule",
+    "swift-dependencies": "/Users/jasoncox/Documents/GitHub/Swift/Shards of Ember/.build/arm64-apple-macosx/debug/GameClient.build/HUDView.swiftdeps",
+    "diagnostics": "/Users/jasoncox/Documents/GitHub/Swift/Shards of Ember/.build/arm64-apple-macosx/debug/GameClient.build/HUDView.dia"
+  },
+  "/Users/jasoncox/Documents/GitHub/Swift/Shards of Ember/Sources/GameClient/Client/MacKeyInputView.swift": {
+    "dependencies": "/Users/jasoncox/Documents/GitHub/Swift/Shards of Ember/.build/arm64-apple-macosx/debug/GameClient.build/MacKeyInputView.d",
+    "object": "/Users/jasoncox/Documents/GitHub/Swift/Shards of Ember/.build/arm64-apple-macosx/debug/GameClient.build/MacKeyInputView.swift.o",
+    "swiftmodule": "/Users/jasoncox/Documents/GitHub/Swift/Shards of Ember/.build/arm64-apple-macosx/debug/GameClient.build/MacKeyInputView~partial.swiftmodule",
+    "swift-dependencies": "/Users/jasoncox/Documents/GitHub/Swift/Shards of Ember/.build/arm64-apple-macosx/debug/GameClient.build/MacKeyInputView.swiftdeps",
+    "diagnostics": "/Users/jasoncox/Documents/GitHub/Swift/Shards of Ember/.build/arm64-apple-macosx/debug/GameClient.build/MacKeyInputView.dia"
+  },
+  "/Users/jasoncox/Documents/GitHub/Swift/Shards of Ember/Sources/GameClient/Client/SK/GameScene.swift": {
+    "dependencies": "/Users/jasoncox/Documents/GitHub/Swift/Shards of Ember/.build/arm64-apple-macosx/debug/GameClient.build/GameScene.d",
+    "object": "/Users/jasoncox/Documents/GitHub/Swift/Shards of Ember/.build/arm64-apple-macosx/debug/GameClient.build/GameScene.swift.o",
+    "swiftmodule": "/Users/jasoncox/Documents/GitHub/Swift/Shards of Ember/.build/arm64-apple-macosx/debug/GameClient.build/GameScene~partial.swiftmodule",
+    "swift-dependencies": "/Users/jasoncox/Documents/GitHub/Swift/Shards of Ember/.build/arm64-apple-macosx/debug/GameClient.build/GameScene.swiftdeps",
+    "diagnostics": "/Users/jasoncox/Documents/GitHub/Swift/Shards of Ember/.build/arm64-apple-macosx/debug/GameClient.build/GameScene.dia"
+  },
+  "/Users/jasoncox/Documents/GitHub/Swift/Shards of Ember/.build/arm64-apple-macosx/debug/GameClient.build/DerivedSources/resource_bundle_accessor.swift": {
+    "dependencies": "/Users/jasoncox/Documents/GitHub/Swift/Shards of Ember/.build/arm64-apple-macosx/debug/GameClient.build/resource_bundle_accessor.d",
+    "object": "/Users/jasoncox/Documents/GitHub/Swift/Shards of Ember/.build/arm64-apple-macosx/debug/GameClient.build/resource_bundle_accessor.swift.o",
+    "swiftmodule": "/Users/jasoncox/Documents/GitHub/Swift/Shards of Ember/.build/arm64-apple-macosx/debug/GameClient.build/resource_bundle_accessor~partial.swiftmodule",
+    "swift-dependencies": "/Users/jasoncox/Documents/GitHub/Swift/Shards of Ember/.build/arm64-apple-macosx/debug/GameClient.build/resource_bundle_accessor.swiftdeps",
+    "diagnostics": "/Users/jasoncox/Documents/GitHub/Swift/Shards of Ember/.build/arm64-apple-macosx/debug/GameClient.build/resource_bundle_accessor.dia"
+  }
+}
