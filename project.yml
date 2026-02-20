@@ -1,0 +1,60 @@
+name: ShardsApp
+options:
+  minimumXcodeGenVersion: 2.38.0
+  createIntermediateGroups: true
+settings:
+  base:
+    SWIFT_VERSION: 5.10
+    MACOSX_DEPLOYMENT_TARGET: 13.0
+    IPHONEOS_DEPLOYMENT_TARGET: 17.0
+    GENERATE_INFOPLIST_FILE: YES
+
+# Native Xcode targets preserving module separation:
+# - GameCore (rules/state)
+# - GameClient (SwiftUI + SpriteKit)
+# - ShardsApp (application entry point)
+# - GameCoreTests (unit tests)
+targets:
+  GameCore:
+    type: framework
+    platform: macOS
+    sources:
+      - path: Sources/GameCore/Core
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.shardsofember.GameCore
+
+  GameClient:
+    type: framework
+    platform: macOS
+    dependencies:
+      - target: GameCore
+    sources:
+      - path: Sources/GameClient/Client
+    resources:
+      - path: Sources/GameClient/Resources
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.shardsofember.GameClient
+
+  ShardsApp:
+    type: application
+    platform: macOS
+    dependencies:
+      - target: GameClient
+    sources:
+      - path: Sources/ShardsApp/App
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.shardsofember.ShardsApp
+
+  GameCoreTests:
+    type: bundle.unit-test
+    platform: macOS
+    dependencies:
+      - target: GameCore
+    sources:
+      - path: Tests/GameCoreTests
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.shardsofember.GameCoreTests

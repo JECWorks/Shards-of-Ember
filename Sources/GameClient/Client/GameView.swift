@@ -2,6 +2,8 @@ import SwiftUI
 import SpriteKit
 import GameCore
 
+private final class GameClientBundleToken {}
+
 /// Root gameplay screen.
 /// Combines SpriteKit world rendering with a SwiftUI HUD overlay.
 public struct GameView: View {
@@ -59,11 +61,13 @@ public struct GameView: View {
 
     /// Loads the default map from bundle resources.
     private static func loadInitialMap() -> MapData {
+        let bundle = resourceBundle
+
         // SwiftPM resources may be available either inside the "Maps" folder
         // or flattened at the resource-bundle root depending on packaging context.
         let url =
-            Bundle.module.url(forResource: "overworld", withExtension: "json", subdirectory: "Maps") ??
-            Bundle.module.url(forResource: "overworld", withExtension: "json")
+            bundle.url(forResource: "overworld", withExtension: "json", subdirectory: "Maps") ??
+            bundle.url(forResource: "overworld", withExtension: "json")
 
         guard let url else {
             // Keep app launchable even if resource packaging is broken.
@@ -103,5 +107,14 @@ public struct GameView: View {
             blockedTileIds: [1],
             spawn: .init(x: 2, y: 2)
         )
+    }
+
+    /// Resource bundle that works in both Swift Package and Xcode project builds.
+    private static var resourceBundle: Bundle {
+#if SWIFT_PACKAGE
+        return .module
+#else
+        return Bundle(for: GameClientBundleToken.self)
+#endif
     }
 }
