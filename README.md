@@ -1,43 +1,28 @@
 # Shards of Ember
 
-Shards of Ember is a Swift/SwiftUI + SpriteKit project building a fun 2D RPG that recalls favorites from the 80's.
+Shards of Ember is a new indie RPG project in Swift, built as a fun 2D adventure that recalls favorites from the 80's.
 
-The current goal is a clean, deterministic vertical slice with fast tile movement, exploration-ready map scaffolding, and a solid foundation for future systems (NPCs, puzzles, battles, dialogue, and world progression).
+It blends tile-based exploration, classic role-playing progression, and modern architecture choices that keep systems clean, testable, and easy to evolve over time.
 
-## Current Scope
+This repository contains the playable prototype and the technical foundation for the full game.
 
-- Tile/grid-based movement (one tile per input)
-- Collision checks (blocked tiles + map bounds)
-- Data-driven map loading from JSON
-- SpriteKit world rendering embedded in SwiftUI
-- Camera follow and quick movement animation
-- Keyboard controls on macOS (arrow keys + WASD)
-- Basic HUD (map name, coordinates, latest log line)
-- Unit tests for core movement and map loading rules
+## Why This Project Exists
 
-## Architecture
+Shards of Ember is being developed with a focus on:
 
-The project is intentionally separated into layers:
+- Tight, responsive game feel
+- Data-driven world design
+- Clear system boundaries (game logic separated from rendering)
+- Beginner-friendly, well-commented code
+- Long-term maintainability as game scope grows
 
-- `GameCore` (pure Swift)
-  - Game rules, map/grid types, deterministic state updates
-  - No SwiftUI or SpriteKit dependencies
-- `GameClient` (SwiftUI + SpriteKit)
-  - Rendering, input mapping, HUD, scene sync/animation
-- `ShardsApp`
-  - Native app entry point and window lifecycle
-- `GameCoreTests`
-  - Unit tests for core logic
+## Tech Stack
 
-## Repository Layout
-
-- `Sources/GameCore/Core`
-- `Sources/GameClient/Client`
-- `Sources/GameClient/Resources/Maps`
-- `Sources/ShardsApp/App`
-- `Tests/GameCoreTests`
-- `ShardsApp.xcodeproj` (native Xcode project)
-- `Package.swift` (SwiftPM build/test support)
+- Swift
+- SwiftUI
+- SpriteKit
+- Native Xcode project (`ShardsApp.xcodeproj`)
+- Swift Package support (`Package.swift`) for CLI build/test workflows
 
 ## Running the Project
 
@@ -59,26 +44,21 @@ Run tests:
 swift test
 ```
 
-## Map Data
+## Repository Structure
 
-Default map file:
+- `Sources/GameCore/Core` - deterministic game rules/models
+- `Sources/GameClient/Client` - rendering, input, UI integration
+- `Sources/GameClient/Resources/Maps` - data-driven maps
+- `Sources/ShardsApp/App` - app entry point and lifecycle
+- `Tests/GameCoreTests` - core unit tests
+- `docs/DesignBible.md` - internal game design direction (contains spoilers)
+- `versions.md` - running development update log
 
-- `Sources/GameClient/Resources/Maps/overworld.json`
+## Documentation Notes
 
-Map JSON includes:
+This README intentionally avoids story spoilers.
 
-- `name`
-- `width`, `height`
-- `tiles` (flattened row-major tile IDs)
-- `blockedTileIds`
-- optional `spawn` (`x`, `y`)
+For development/design details, see:
 
-## Project Intent
-
-Shards of Ember prioritizes:
-
-- Readable, beginner-friendly code
-- Clear separation of game logic from rendering
-- Deterministic behavior that is easy to test
-- A fast, responsive feel even with placeholder visuals
-
+- `docs/DesignBible.md` for game systems and narrative structure
+- `versions.md` for feature progress and build history
