@@ -52,7 +52,7 @@ swift test
 - `Sources/ShardsApp/App` - app entry point and lifecycle
 - `Tests/GameCoreTests` - core unit tests
 - `docs/DesignBible.md` - internal game design direction (contains spoilers)
-- `versions.md` - running development update log
+- `versions/` - archived milestone snapshots
 
 ## Documentation Notes
 
@@ -60,5 +60,8 @@ This README intentionally avoids story spoilers.
 
 For development/design details, see:
 
-- `docs/DesignBible.md` for game systems and narrative structure
-- `versions.md` for feature progress and build history
+- `docs/DesignBible.md` for core world structure
+- `docs/Narrative.md` for story beats and act planning (spoilers)
+- `docs/Systems.md` for mechanics and progression rules
+- `docs/Roadmap.md` for implementation milestones and to-do tracking
+- `versions/` for archived milestone snapshots

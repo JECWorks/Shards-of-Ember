@@ -1,6 +1,4 @@
-# Shards of Ember - Versions
-
-This file tracks meaningful project milestones and scope updates.
+# 2026-02-20 - Foundation Through Docs
 
 ## 0.1.0 - Foundation Vertical Slice
 
@@ -36,4 +34,4 @@ This file tracks meaningful project milestones and scope updates.
 
 - Reworked `README.md` as a spoiler-free project overview page.
 - Added `docs/DesignBible.md` for internal design mechanics and narrative references.
-- Added `versions.md` for ongoing build/progress tracking.
+- Added archived versions tracking under `versions/`.
